@@ -1,0 +1,14 @@
+body {
+  padding-top: 50px;
+  text-align: center;
+}
+
+body .container {
+  width: 600px;
+  text-align: center;
+  padding: 0;
+}
+
+header .logo {
+  margin-bottom: 20px;
+}
