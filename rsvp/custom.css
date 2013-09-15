@@ -54,59 +54,37 @@ html{background-image:none;background-color:white}
 .wufoo .instruct{font-size:80%;font-family:inherit;color:#444444}
 
 .buttons div #saveForm {
--webkit-appearance: none;
--webkit-box-align: center;
--webkit-rtl-ordering: logical;
--webkit-user-select: none;
-background-color: 
-rgb(66, 139, 202);
-background-image: none;
-border-bottom-color: 
-rgb(53, 126, 189);
-border-bottom-left-radius: 6px;
-border-bottom-right-radius: 6px;
-border-bottom-style: solid;
-border-bottom-width: 1px;
-border-left-color: 
-rgb(53, 126, 189);
-border-left-style: solid;
-border-left-width: 1px;
-border-right-color: 
-rgb(53, 126, 189);
-border-right-style: solid;
-border-right-width: 1px;
-border-top-color: 
-rgb(53, 126, 189);
-border-top-left-radius: 6px;
-border-top-right-radius: 6px;
-border-top-style: solid;
-border-top-width: 1px;
-box-sizing: border-box;
-color: 
-rgb(255, 255, 255);
-cursor: pointer;
-display: inline-block;
-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-size: 18px;
-font-weight: normal;
-height: 45px;
-letter-spacing: normal;
-line-height: 23px;
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-padding-bottom: 10px;
-padding-left: 16px;
-padding-right: 16px;
-padding-top: 10px;
-text-align: center;
-text-indent: 0px;
-text-shadow: none;
-text-transform: none;
-vertical-align: middle;
-white-space: nowrap;
-width: 92px;
-word-spacing: 0px;
+  -webkit-appearance: none;
+  -webkit-box-align: center;
+  -webkit-rtl-ordering: logical;
+  -webkit-user-select: none;
+  background-color:   #925DB5;
+  background-image: none;
+  border: 1px solid rgb(53, 126, 189);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: white);
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  height: 45px;
+  letter-spacing: normal;
+  line-height: 23px;
+  margin: 0px;
+  padding: 10px 16px;
+  text-align: center;
+  text-indent: 0px;
+  text-shadow: none;
+  text-transform: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 92px;
+  word-spacing: 0px;
+}
+
+.buttons div #saveForm:hover {
+  background-color: #6f418d;
 }
 
