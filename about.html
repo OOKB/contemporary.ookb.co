@@ -395,12 +395,26 @@
       
         var bigbrother = -1;
       
-        $('.bio').each(function() {
+        $('#board .bio').each(function() {
           bigbrother = bigbrother > $(this).height() ? bigbrother : $(this).height();
         });
       
-        $('.bio').each(function() {
+        $('#board .bio').each(function() {
           $(this).height(bigbrother);
+        });
+      
+      });
+      
+      $(window).load(function() {
+      
+        var bigbrother2 = -1;
+      
+        $('#staff .bio').each(function() {
+          bigbrother2 = bigbrother2 > $(this).height() ? bigbrother2 : $(this).height();
+        });
+      
+        $('#staff .bio').each(function() {
+          $(this).height(bigbrother2);
         });
       
       });
