@@ -37,6 +37,7 @@ $(document).ready(function() {
 });
 
 // For the individual speaker pages
+/*
 $(window).load(function() {
   var th = $('.date-time').height();
   $('.artistswork').css('margin-top',(th*-1));
@@ -46,6 +47,8 @@ $(window).resize(function() {
   var th = $('.date-time').height();
   $('.artistswork').css('margin-top',(th*-1));
 });
+*/
+
 
 
 
