@@ -495,7 +495,7 @@ section img {
 
 /* some new styles for JSON fed lists to hide past things... */
 .jsonmade li.past { text-decoration: line-through; }
-.jsonmade li.active { font-weight: bold; }
+.jsonmade li.present { font-weight: bold; }
 .home .jsonmade li.past { display: none; }
 
 /******************************************/
