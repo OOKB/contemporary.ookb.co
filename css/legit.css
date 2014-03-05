@@ -479,7 +479,7 @@ section img {
   margin-bottom: 30px;
 }
 
-#speakers .row h2 {margin-bottom: 0; font-size: 1.25em;}
+#speakers .row h2, #archive .row h2 {margin-bottom: 0; font-size: 1.25em;}
 #speakers .row div .btn {margin-bottom: 15px; width: 100%;}
 
 /* individual speaker pages */
