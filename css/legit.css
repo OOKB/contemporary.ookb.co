@@ -481,6 +481,7 @@ section img {
 
 #speakers .row h2, #archive .row h2 {margin-bottom: 0; font-size: 1.25em;}
 #speakers .row div .btn {margin-bottom: 15px; width: 100%;}
+#archive .row p {margin-bottom: 0; }
 
 /* individual speaker pages */
 .date-time, .date-time p {
