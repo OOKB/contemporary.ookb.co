@@ -104,12 +104,8 @@
 
             <div class="row">
               <!-- Speaker Nav tabs -->
-              <ul class="nav col-sm-2">
-                <li class="stricken"><a href="2014-01-13-cocofusco.html" data-toggle="tab">Coco Fusco // Guest Spot</a></li>
-                <li><a href="2014-02-18-nickcave.html" data-toggle="tab">Nick Cave // Pinebox Arts Center</a></li>
-                <li><a href="2014-03-05-brendanfowler.html" data-toggle="tab">Brendan Fowler // Nudashank</a></li>
-                <li><a href="2014-03-27-waynewhite.html" data-toggle="tab">Wayne White // Gallery CA</a></li>
-                <li class="active"><a href="2014-04-02-jonrafman.html" data-toggle="tab">Jon Rafman // Springsteen Gallery</a></li>
+              <ul class="nav col-sm-2" id="speakermenu">
+                <!-- gonna insert links by magix! -->
               </ul>
               
               <!-- Speaker panel -->
@@ -244,6 +240,18 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/ookb_for_tc.js"></script>
+
+    <script>
+
+      $.getJSON('json/speakermenu.json', function(data) { 
+        .each(function(index, item) {
+          $('#speakermenu').append(
+            $(document.createElement('li')).text(item)
+          );
+        });
+      });
+
+    </script>
 
     <!-- Google Analytics -->
     <script>
