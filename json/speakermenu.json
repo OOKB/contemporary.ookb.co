@@ -2,45 +2,52 @@
     "speakermenu": [
         {
             "url": "2014-01-13-cocofusco.html",
-            "type": "past",
             "speaker": "Coco Fusco",
-            "gallery": "GuestSpot"
+            "type": "past",
+            "gallery": "GuestSpot",
+            "humandate": "Jan 13"
         },
         {
             "url": "2014-02-18-nickcave.html",
-            "type": "past",
             "speaker": "Nick Cave",
-            "gallery": "Pinebox Arts Center"
+            "type": "past",
+            "gallery": "Pinebox Arts Center",
+            "humandate": "Feb 18"
         },
         {
             "url": "2014-03-05-brendanfowler.html",
-            "type": "active",
             "speaker": "Brendan Fowler",
-            "gallery": "Nudashank"
+            "type": "active",
+            "gallery": "Nudashank",
+            "humandate": "Mar 05"
         },
         {
             "url": "2014-03-27-waynewhite.html",
-            "type": "future",
             "speaker": "Wayne White",
-            "gallery": "Gallery CA"
+            "type": "future",
+            "gallery": "Gallery CA",
+            "humandate": "Mar 27"
         },
         {
             "url": "2014-04-02-jonrafman.html",
-            "type": "future",
             "speaker": "Jon Rafman",
-            "gallery": "Springsteen Gallery"
+            "type": "future",
+            "gallery": "Springsteen Gallery",
+            "humandate": "Apr 02"
         },
         {
             "url": "2014-04-21-typea.html",
-            "type": "future",
             "speaker": "Type A",
-            "gallery": "Lease Agreement"
+            "type": "future",
+            "gallery": "Lease Agreement",
+            "humandate": "Apr 21"
         },
         {
             "url": "2014-05-xx-shiniquesmith.html",
-            "type": "future",
             "speaker": "Shinique Smith",
-            "gallery": "Galerie Myrtis"
+            "type": "future",
+            "gallery": "Galerie Myrtis",
+            "humandate": "May TK"
         }
     ]
 }

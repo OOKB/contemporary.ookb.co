@@ -181,15 +181,9 @@ Photo by Olivia Obineme.</h2>
                   <h2>Upcoming</h2>
                 </div>
                 <div class="link-lists">
-                  <ul>
-<!--                     <li><a href="2014-01-13-cocofusco.html">Jan 13: <em>CoHosts</em> // Coco Fusco &amp; Guest Spot</a></li> -->
-<!--                     <li><a href="2014-02-18-nickcave.html">Feb 18: <em>CoHosts</em> // Nick Cave &amp; Pinebox Art Center</a></li> -->
-                    <li><a href="2014-03-05-brendanfowler.html">Mar 05: <em>CoHosts</em> // Brendan Fowler &amp; Nudashank</a></li>
-                    <li><a href="2014-03-27-waynewhite.html">Mar 27: <em>CoHosts</em> // Wayne White &amp; Gallery CA</a></li>
-                    <li><a href="2014-04-02-jonrafman.html">Apr 02: <em>CoHosts</em> // Jon Rafman &amp; Springsteen Gallery</a></li>
-                    <li><a href="2014-04-21-typea.html">Apr 21: <em>CoHosts</em> // Type A &amp; Lease Agreement</a></li>
-                    <li><small>All <em>CoHosts</em> will take place at the Baltimore School for the Arts.</small></li>
+                  <ul id="speakerlist">
                   </ul>
+                  <small>All <em>CoHosts</em> will take place at the Baltimore School for the Arts.</small>
                 </div>
               </section>
 
@@ -268,7 +262,7 @@ Photo by Olivia Obineme.</h2>
               </nav>
 
               <!-- Add the extra clearfix for only the required viewport -->
-              <div class="clearfix visible-sm"></div><!-- this breaks deana's image from the text on mobile mode for now... -->
+              <div class="clearfix visible-sm"></div>
 
               <nav class="col-sm-6 col-md-3">
                 <h3>Programming</h3>
@@ -345,6 +339,15 @@ Photo by Olivia Obineme.</h2>
           $(this).height(ll);
         });
 
+      });
+    </script>
+
+    <script>
+      // print out menu automatically for these pages...
+      $.getJSON('json/speakermenu.json', function(data) { 
+        $.each(data.speakermenu, function(data) {
+          $('ul#speakerlist').append('<li class="' + this["type"] + '"><a href="' + this["url"] + '">' + this["humandate"] + ' <em>CoHosts</em> ' + this["speaker"] + ' // ' + this["gallery"] + '</a></li>');
+        });
       });
     </script>
 

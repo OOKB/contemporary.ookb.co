@@ -5,40 +5,47 @@
   gallery: "GuestSpot"
   url: "2014-01-13-cocofusco.html"
   type: past
+  humandate: "Jan 13"
 
 -
   speaker: "Nick Cave"
   gallery: "Pinebox Arts Center"
   url: "2014-02-18-nickcave.html"
   type: past
+  humandate: "Feb 18"
 
 -
   speaker: "Brendan Fowler"
   gallery: "Nudashank"
   url: "2014-03-05-brendanfowler.html"
   type: active
+  humandate: "Mar 05"
 
 -
   speaker: "Wayne White"
   gallery: "Gallery CA"
   url: "2014-03-27-waynewhite.html"
   type: future
+  humandate: "Mar 27"
 
 -
   speaker: "Jon Rafman"
   gallery: "Springsteen Gallery"
   url: "2014-04-02-jonrafman.html"
   type: future
+  humandate: "Apr 02"
 
 -
   speaker: "Type A"
   gallery: "Lease Agreement"
   url: "2014-04-21-typea.html"
   type: future
+  humandate: "Apr 21"
 
 -
   speaker: "Shinique Smith"
   gallery: "Galerie Myrtis"
   url: "2014-05-xx-shiniquesmith.html"
   type: future
+  humandate: "May TK"
 
