@@ -353,8 +353,16 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/tab.js"></script>
     <script src="js/ookb_for_tc.js"></script>
+
+    <script>
+      // print out menu automatically for these pages...
+      $.getJSON('json/speakermenu.json', function(data) { 
+        $.each(data.speakermenu, function(data) {
+          $('ul#speakermenu').append('<li class="' + this["type"] + '"><a href="' + this["url"] + '">' + this["speaker"] + ' // ' + this["gallery"] + '</a></li>');
+        });
+      });
+    </script>
 
     <!-- Google Analytics -->
     <script>
