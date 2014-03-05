@@ -104,7 +104,7 @@
 
             <div class="row">
               <!-- Speaker Nav tabs -->
-              <ul class="nav col-sm-2">
+              <ul class="nav col-sm-2" id="speakermenu">
               </ul>
               
               <!-- Speaker panel -->
@@ -244,7 +244,7 @@
       // print out menu automatically for these pages...
       $.getJSON('json/speakermenu.json', function(data) { 
         $.each(data.speakermenu, function(data) {
-          $('ul#speakermenu').append('<li class="' + this["time"] + '"><a href="' + this["url"] + '">' + this["speaker"] + ' // ' + this["gallery"] + '</a></li>');
+          $('ul#speakermenu').append('<li class="' + this["type"] + '"><a href="' + this["url"] + '">' + this["speaker"] + ' // ' + this["gallery"] + '</a></li>');
         });
       });
     </script>
