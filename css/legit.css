@@ -493,6 +493,10 @@ section img {
   margin-top: 15px;
 }
 
+/* some new styles for JSON fed lists to hide past things... */
+.jsonlist li.past { display: none; }
+.jsonlist li.active { text-decoration: underline; }
+
 /******************************************/
 /******************************************/
 /* Footer Styles */
