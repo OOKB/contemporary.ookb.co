@@ -452,6 +452,8 @@ section img {
   padding: 15px;
 }
 
+.email {margin-bottom: 15px;}
+
 .email .small {
   font-size: .85em;
 }
