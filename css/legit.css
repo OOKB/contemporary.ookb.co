@@ -101,6 +101,11 @@ a:focus {
   border-bottom: 1px solid;
 }
 
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 /* a bunch of quick corrections and global things... */
 .add-top { margin-top: 30px; }
 .add-bottom { margin-bottom: 30px; }
@@ -228,8 +233,6 @@ img.fit {width: 100%;}
 .navbar-toggle:focus {
   background-color: #CDDCE7;
 }
-
-
 
 /******************************************/
 /******************************************/
@@ -413,6 +416,10 @@ section img {
   height: auto;
 }
 
+#staff .bio img {
+  max-width: 300px;
+}
+
 .toggle .bio {
   position: relative;
 }
@@ -445,7 +452,9 @@ section img {
   padding: 15px;
 }
 
-
+.email .small {
+  font-size: .85em;
+}
 
 /* PROJECT PAGE */
 
