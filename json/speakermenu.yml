@@ -25,14 +25,14 @@
   speaker: "Wayne White"
   gallery: "Gallery CA"
   url: "2014-03-27-waynewhite.html"
-  type: present
+  type: past
   humandate: "Mar 27"
 
 -
   speaker: "Jon Rafman"
   gallery: "Springsteen Gallery"
   url: "2014-04-02-jonrafman.html"
-  type: future
+  type: past
   humandate: "Apr 02"
 
 -
