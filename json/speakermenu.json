@@ -38,14 +38,14 @@
         {
             "url": "2014-04-21-typea.html",
             "speaker": "Type A",
-            "type": "future",
+            "type": "past",
             "gallery": "Lease Agreement",
             "humandate": "Apr 21"
         },
         {
             "url": "2014-05-01-shiniquesmith.html",
             "speaker": "Shinique Smith",
-            "type": "future",
+            "type": "present",
             "gallery": "Galerie Myrtis",
             "humandate": "May 01"
         }
