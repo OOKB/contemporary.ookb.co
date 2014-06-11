@@ -323,7 +323,6 @@ img.fit {width: 100%;}
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00FFFFFF', endColorstr='#77FFFFFF', GradientType=1);
 }
 
-
 .homepage-graphic { 
   margin-top: 30px;
   padding: 0;
@@ -549,3 +548,9 @@ footer .secondary a { font-size: 10px !important; letter-spacing: 1px;}
     text-align: left;
   }
 }
+
+#archive section > div { margin-bottom: 20px; }
+
+
+
+
