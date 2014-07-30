@@ -391,33 +391,31 @@
     <!-- make all the bios the same height with JS, not CSS -->
     <!-- from here: http://stackoverflow.com/questions/6781031/use-jquery-css-to-find-the-tallest-of-all-elements -->
     <script>
-      $(window).load(function() {
-      
+      var bioheight = function() {
         var bigbrother = -1;
-      
         $('#board .bio').each(function() {
           bigbrother = bigbrother > $(this).height() ? bigbrother : $(this).height();
         });
-      
         $('#board .bio').each(function() {
           $(this).height(bigbrother);
         });
-      
-      });
-      
-      $(window).load(function() {
-      
         var bigbrother2 = -1;
-      
         $('#staff .bio').each(function() {
           bigbrother2 = bigbrother2 > $(this).height() ? bigbrother2 : $(this).height();
         });
-      
         $('#staff .bio').each(function() {
           $(this).height(bigbrother2);
         });
+      };
       
+      $(window).load(function() {
+        bioheight();
       });
+
+      $(window).resize(function() {
+        bioheight();
+      });
+      
     </script>
 
     <!-- Google Analytics -->

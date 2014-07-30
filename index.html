@@ -345,14 +345,12 @@
     <!-- make all the bios the same height with JS, not CSS -->
     <!-- from here: http://stackoverflow.com/questions/6781031/use-jquery-css-to-find-the-tallest-of-all-elements -->
     <script>
-      $(window).load(function() {
-      
+      var sameheight = function() {
+
         var hg = -1;
-      
         $('.homepage-graphic').each(function() {
           hg = hg > $(this).height() ? hg : $(this).height();
         });
-      
         $('.homepage-graphic').each(function() {
           $(this).height(hg);
         });
@@ -365,6 +363,12 @@
           $(this).height(ll);
         });
 
+      };
+      $(window).load(function() {
+        sameheight();
+      });
+      $(window).resize(function() {
+        sameheight();
       });
     </script>
 
