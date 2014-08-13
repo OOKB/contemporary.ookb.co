@@ -92,7 +92,7 @@
     <div class="main" role="main">
       <div class="container">
         <div class="row">
-        
+
           <!-- Offset content slightly to the right -->
           <div class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
 
@@ -107,11 +107,11 @@
               <ul class="nav col-sm-2 jsonmade" id="speakermenu">
                 <!-- gonna insert links by magix! -->
               </ul>
-              
+
               <!-- Speaker panel -->
               <div class="col-sm-10">
                 <article>
-    
+
                   <section class="date-time row">
                     <p class="col-xs-12">
                       <time datetime="2014-03-27">Thursday, September 4, 2014</time><br/>
@@ -119,7 +119,7 @@
                       <a href="https://www.eventbrite.com/e/cohosts-andrew-wk-current-space-tickets-10994927123"><button class="btn btn-default">Register Here</button></a>
                     </p>
                   </section>
-    
+
                   <div class="row">
                     <section class="col-sm-6 col-md-6 col-lg-6 speaker">
                       <h2>Andrew W.K.</h2>
@@ -127,19 +127,19 @@
                       <p class="lead"><a href="http://www.andrewwk.com/">andrewwk.com</a></p>
                       <p class="new-century"><em>Bloody Nose</em> // <br class="visible-sm"/>photo by Roe Ethridge // Image courtesy of the artist.</p>
                     </section>
-                    
+
                     <section class="col-sm-6 col-md-6 col-lg-6 sponsor">
-                    
+
                       <div class="artistswork add-bottom">
                         <img src="img/speakers/2014/2014-09-andrewwk.jpg" />
                       </div>
-                    
+
                       <h2 class="sponsorname">Cohosted with <br/>Current Space</h3>
-                      <p>Founded in November 2014, Current Space is an artist-run gallery, studio, and a headquarters for cultural production, nourishing an ongoing dialogue between artists, activists performers, designers, curators, and thinkers. They are committed to showcasing, developing, and brooding the reach of artists locally and internationally. Current Space is open 12pm-4pm on Saturdays and Sundays and is located at 421 N. Howard St.</p>
+                      <p>Founded in November 2004, Current Space is an artist-run gallery, studio, and a headquarters for cultural production, nourishing an ongoing dialogue between artists, activists performers, designers, curators, and thinkers. They are committed to showcasing, developing, and brooding the reach of artists locally and internationally. Current Space is open 12pm-4pm on Saturdays and Sundays and is located at 421 N. Howard St.</p>
                       <p class="lead"><a href="http://www.currentspace.com/">currentspace.com</a></p>
-    
+
                     </section>
-                    
+
                   </div>
                 </article>
               </div>
@@ -175,7 +175,7 @@
                   <li>info@contemporary.org</li>
                 </ul>
               </div>
-              
+
               <nav class="col-sm-6 col-md-3">
                 <h3><a href="about.html">About</a></h3>
                 <ul>
@@ -197,7 +197,7 @@
                   <li><a href="speakerseries.html">Speaker Series</a></li>
                 </ul>
               </nav>
-    
+
               <nav class="col-sm-6 col-md-3">
                 <h3>Connect</h3>
                 <ul>
@@ -213,9 +213,9 @@
                   <li><a href="donate.html">Donate</a></li>
                 </ul>
               </nav>
-    
+
             </div>
-            
+
             <hr class="border-top" />
 
             <div class="row secondary">
@@ -223,9 +223,9 @@
               <p class="col-sm-3 text-right"><a href="http://www.ookb.co/">site by OOKB</a></p>
             </div>
             <!-- END FOOTER CONTENTS -->
-            
+
           </div><!-- END RIGHT OFFSET -->
-        
+
         </div>  <!-- END ROW -->
       </div>    <!-- END CONTAINER -->
     </footer>   <!-- END FOOTER -->
@@ -242,7 +242,7 @@
 
     <script>
       // print out menu automatically for these pages...
-      $.getJSON('json/speakermenu.json', function(data) { 
+      $.getJSON('json/speakermenu.json', function(data) {
         $.each(data.speakermenu, function(data) {
           $('ul#speakermenu').append('<li class="' + this["type"] + '"><a href="' + this["url"] + '">' + this["speaker"] + ' // ' + this["gallery"] + '</a></li>');
         });
@@ -258,6 +258,6 @@
       ga('create', 'UA-46130583-1', 'contemporary.org');
       ga('send', 'pageview');
     </script>
-    
+
   </body>
 </html>
