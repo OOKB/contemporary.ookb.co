@@ -106,7 +106,7 @@
                 <li data-target="#carousel-example-generic" data-slide-to="4"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="5"></li>
               </ol>
-            
+
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
@@ -117,7 +117,7 @@
                     </div>
                   </a>
                 </div>
-                
+
                 <div class="item scroll">
                   <a href="http://issuu.com/thecontemporary/docs/scroll_i_don_t_care_i_love_it/0" class="no-styles">
                     <img src="img/headers/scroll-home.jpg" alt="Scroll #1">
@@ -169,7 +169,7 @@
                   </a>
                 </div>
               </div>
-            
+
               <!-- Controls -->
               <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
@@ -201,13 +201,13 @@
                   </ul>
                 </div>
               </section>
-            
+
               <section class="col-sm-4 col-md-5 col-lg-5 speakers">
                 <div class="homepage-graphic">
                   <h2>Upcoming</h2>
                 </div>
-                <div class="link-lists">
-                  <ul id="speakerlist" class="jsonmade">
+                <div id="speakers" class="link-lists">
+                  <ul id="speakerlist" class="jsonmade list">
                     <!-- printing this out with json magix -->
                   </ul>
                   <small>All <em>CoHosts</em> will take place at the Baltimore School for the Arts.</small>
@@ -247,13 +247,13 @@
                 </div>
               </form>
             </section>
-            
+
           </div><!-- end offset content area -->
-            
+
         </div><!-- END ROW -->
       </div><!-- END CONTAINER -->
     </div><!-- END MAIN -->
-      
+
     <!-------------------------------------------------------------------->
     <!-------------------------------------------------------------------->
     <!-- FOOTER! -->
@@ -277,7 +277,7 @@
                   <li>info@contemporary.org</li>
                 </ul>
               </div>
-              
+
               <nav class="col-sm-6 col-md-3">
                 <h3><a href="about.html">About</a></h3>
                 <ul>
@@ -300,7 +300,7 @@
                   <li><a href="speakerseries.html">Speaker Series</a></li>
                 </ul>
               </nav>
-    
+
               <nav class="col-sm-6 col-md-3">
                 <h3>Connect</h3>
                 <ul>
@@ -316,9 +316,9 @@
                   <li><a href="donate.html">Donate</a></li>
                 </ul>
               </nav>
-    
+
             </div>
-            
+
             <hr class="border-top" />
 
             <div class="row secondary">
@@ -326,9 +326,9 @@
               <p class="col-sm-3 text-right"><a href="http://www.ookb.co/">site by OOKB</a></p>
             </div>
             <!-- END FOOTER CONTENTS -->
-            
+
           </div><!-- END RIGHT OFFSET -->
-        
+
         </div>  <!-- END ROW -->
       </div>    <!-- END CONTAINER -->
     </footer>   <!-- END FOOTER -->
@@ -342,6 +342,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
     <script src="js/ookb_for_tc.js"></script>
 
     <!-- make all the bios the same height with JS, not CSS -->
@@ -356,7 +357,7 @@
         $('.homepage-graphic').each(function() {
           $(this).height(hg);
         });
-      
+
         var ll = -1;
         $('.link-lists').each(function() {
           ll = ll > $(this).height() ? ll : $(this).height();
@@ -376,11 +377,19 @@
 
     <script>
       // print out menu automatically for these pages...
-      $.getJSON('json/speakermenu.json', function(data) { 
+      $.getJSON('json/speakermenu.json', function(data) {
         $.each(data.speakermenu, function(data) {
-          $('ul#speakerlist').append('<li class="' + this["type"] + '"><a href="' + this["url"] + '">' + this["humandate"] + ' // <em>CoHosts</em> ' + this["speaker"] + ' // ' + this["gallery"] + '</a></li>');
+          $('ul#speakerlist').append('<li class="' + this["type"] + '"><span class="date hidden">' + this["machinedate"] + '</span><a href="' + this["url"] + '">' + this["humandate"] + ' // <em>CoHosts</em> ' + this["speaker"] + ' // ' + this["gallery"] + '</a></li>');
         });
       });
+
+      var options = {
+        valueNames: [ 'date' ],
+        page: 400
+      };
+
+      var speakersList = new List('speakers', options);
+
     </script>
 
     <!-- Google Analytics -->
@@ -392,6 +401,6 @@
       ga('create', 'UA-46130583-1', 'contemporary.org');
       ga('send', 'pageview');
     </script>
-    
+
   </body>
 </html>
