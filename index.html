@@ -377,7 +377,7 @@
 
     <script>
       // print out menu automatically for these pages...
-      $.getJSON('json/speakermenu.json', function(data) {
+      $.getJSON('json/upcoming.json', function(data) {
         $.each(data.speakermenu, function(data) {
           $('ul#speakerlist').append('<li class="' + this["type"] + '"><span class="date hidden">' + this["machinedate"] + '</span><a href="' + this["url"] + '">' + this["humandate"] + ' // <em>CoHosts</em> ' + this["speaker"] + ' // ' + this["gallery"] + '</a></li>');
         });

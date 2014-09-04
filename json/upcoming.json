@@ -1,0 +1,28 @@
+{
+    "speakermenu": [
+        {
+            "url": "2014-09-04-andrewwk.html",
+            "speaker": "Andrew W.K.",
+            "type": "present",
+            "gallery": "Current Space",
+            "humandate": "Sep 04",
+            "machinedate": "2014-09-04"
+        },
+        {
+            "url": "2014-09-04-jacobkhepler.html",
+            "speaker": "Jacob Khepler",
+            "type": "future",
+            "gallery": "Open Space",
+            "humandate": "Sep 24",
+            "machinedate": "2014-09-24"
+        },
+        {
+            "url": "2014-10-08-sanfordbiggers.html",
+            "speaker": "Sanford Biggers",
+            "type": "future",
+            "gallery": "Gallery Four",
+            "humandate": "Oct 08",
+            "machinedate": "2014-10-08"
+        }
+    ]
+}
