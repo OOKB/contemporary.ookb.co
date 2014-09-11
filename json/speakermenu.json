@@ -11,7 +11,7 @@
         {
             "url": "2014-09-04-jacobkhepler.html",
             "speaker": "Jacob Khepler",
-            "type": "future",
+            "type": "present",
             "gallery": "Open Space",
             "humandate": "Sep 24",
             "machinedate": "2014-09-24"
@@ -19,7 +19,7 @@
         {
             "url": "2014-09-04-andrewwk.html",
             "speaker": "Andrew W.K.",
-            "type": "present",
+            "type": "past",
             "gallery": "Current Space",
             "humandate": "Sep 04",
             "machinedate": "2014-09-04"
