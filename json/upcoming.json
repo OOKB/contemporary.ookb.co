@@ -1,15 +1,7 @@
 {
     "speakermenu": [
         {
-            "url": "2014-09-04-andrewwk.html",
-            "speaker": "Andrew W.K.",
-            "type": "past",
-            "gallery": "Current Space",
-            "humandate": "Sep 04",
-            "machinedate": "2014-09-04"
-        },
-        {
-            "url": "2014-09-04-jacobkhepler.html",
+            "url": "2014-09-24-jacobkhepler.html",
             "speaker": "Jacob Khepler",
             "type": "present",
             "gallery": "Open Space",
