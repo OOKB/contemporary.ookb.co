@@ -10,6 +10,8 @@ footer {
   border-bottom: 1px solid;
   padding-bottom: 15px;
   margin-bottom: 15px;
+  line-height: 24px;
+  overflow: visible;
 }
 
 footer .sponsors ul {
