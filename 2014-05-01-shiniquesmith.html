@@ -12,6 +12,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/legit.css" rel="stylesheet">
+    <link href="css/newfooter.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -92,7 +93,7 @@
     <div class="main" role="main">
       <div class="container">
         <div class="row">
-        
+
           <!-- Offset content slightly to the right -->
           <div class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
 
@@ -107,11 +108,11 @@
               <ul class="nav col-sm-2 jsonmade" id="speakermenu">
                 <!-- gonna insert links by magix! -->
               </ul>
-              
+
               <!-- Speaker panel -->
               <div class="col-sm-10">
                 <article>
-    
+
                   <section class="date-time row">
                     <p class="col-xs-12">
                       <time datetime="2014-03-27">Thursday, May 1, 2014</time><br/>
@@ -119,7 +120,7 @@
                       <a href="http://www.eventbrite.com/e/cohosts-shinique-smith-galerie-myrtis-tickets-10841773035"><button class="btn btn-default">Register Here</button></a>
                     </p>
                   </section>
-    
+
                   <div class="row">
                     <section class="col-sm-6 col-md-6 col-lg-6 speaker">
                       <h2>Shinique Smith</h2>
@@ -127,19 +128,19 @@
                       <p class="lead"><a href="http://shiniquesmith.com/">shiniquesmith.com</a></p>
                       <p class="new-century"><em>Tongues Become Flowers</em> // mixed media // 2013<br/> Image courtesy of the artist.</p>
                     </section>
-                    
+
                     <section class="col-sm-6 col-md-6 col-lg-6 sponsor">
-                    
+
                       <div class="artistswork add-bottom">
                         <img src="img/speakers/2014/2014-07-smith.jpg" />
                       </div>
-                    
+
                       <h2 class="sponsorname">Cohosted with Galerie Myrtis</h3>
                       <p>Founded in 2006, Galerie Myrtis is a contemporary fine art gallery which represents emerging to mid-career artists who have achieved regional, national and international acclaim. The gallery was originally located on Capitol Hill in Washington DC. In 2008, Galerie Myrtis relocated to Baltimore, Maryland occupying a 2,500 square foot space on Charles Street near the Station North Arts and Entertainment District. The mission of the gallery is to utilize the visual arts to raise awareness for artists who deserve recognition for their contributions in artistically portraying our historic and cultural landscapes; and to recognize art movements that paved the way for freedom of artistic expression. Galerie Myrtis is open 2pm-6pm Thursday-Saturday and by appointment on Tuesday-Wednesday. It is located at 2224 N. Charles Street.</p>
                       <p class="lead"><a href="http://galeriemyrtis.net/">galeriemyrtis.net</a></p>
-    
+
                     </section>
-                    
+
                   </div>
                 </article>
               </div>
@@ -160,7 +161,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+          <div id="dynamicreplacement" class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
 
             <hr class="border-top" />
 
@@ -175,7 +176,7 @@
                   <li>info@contemporary.org</li>
                 </ul>
               </div>
-              
+
               <nav class="col-sm-6 col-md-3">
                 <h3><a href="about.html">About</a></h3>
                 <ul>
@@ -197,7 +198,7 @@
                   <li><a href="speakerseries.html">Speaker Series</a></li>
                 </ul>
               </nav>
-    
+
               <nav class="col-sm-6 col-md-3">
                 <h3>Connect</h3>
                 <ul>
@@ -213,9 +214,9 @@
                   <li><a href="donate.html">Donate</a></li>
                 </ul>
               </nav>
-    
+
             </div>
-            
+
             <hr class="border-top" />
 
             <div class="row secondary">
@@ -223,9 +224,9 @@
               <p class="col-sm-3 text-right"><a href="http://www.ookb.co/">site by OOKB</a></p>
             </div>
             <!-- END FOOTER CONTENTS -->
-            
+
           </div><!-- END RIGHT OFFSET -->
-        
+
         </div>  <!-- END ROW -->
       </div>    <!-- END CONTAINER -->
     </footer>   <!-- END FOOTER -->
@@ -242,7 +243,7 @@
 
     <script>
       // print out menu automatically for these pages...
-      $.getJSON('json/speakermenu.json', function(data) { 
+      $.getJSON('json/speakermenu.json', function(data) {
         $.each(data.speakermenu, function(data) {
           $('ul#speakermenu').append('<li class="' + this["type"] + '"><a href="' + this["url"] + '">' + this["speaker"] + ' // ' + this["gallery"] + '</a></li>');
         });
@@ -258,6 +259,6 @@
       ga('create', 'UA-46130583-1', 'contemporary.org');
       ga('send', 'pageview');
     </script>
-    
+
   </body>
 </html>

@@ -12,6 +12,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/legit.css" rel="stylesheet">
+    <link href="css/newfooter.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -92,7 +93,7 @@
     <div class="main" role="main">
       <div class="container">
         <div class="row">
-        
+
           <!-- Offset content slightly to the right -->
           <div class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
 
@@ -107,18 +108,18 @@
               <ul class="nav col-sm-2 jsonmade" id="speakermenu">
                 <!-- gonna insert links by magix! -->
               </ul>
-            
+
               <!-- Speaker panel -->
               <div class="col-sm-10">
                 <article>
-    
+
                   <section class="date-time row">
                     <p class="col-xs-12">
                       <time datetime="2014-02-18">Tuesday, Feb 18, 2014</time><br/>
                       <time>6pm</time> Reception / <time>7pm</time> Lecture<br/>
                     </p>
                   </section>
-    
+
                   <div class="row">
                     <section class="col-sm-6 col-md-6 col-lg-6 speaker">
                       <h1>Nick Cave</h2>
@@ -127,13 +128,13 @@
                       <p class="new-century"><em>Soundsuit</em> // Mixed media // 2011<br/>
                         Image courtesy of the artist.</p>
                     </section>
-                    
+
                     <section class="col-sm-6 col-md-6 col-lg-6 sponsor">
-                    
+
                       <div class="artistswork add-bottom">
                         <img src="img/speakers/2014/nc-musicsuit.jpg" />
                       </div>
-                    
+
                       <h2 class="sponsorname">Cohosted with Pinebox Art Center</h3>
                       <p>Pinebox Art Center was founded in 2012 and operates as a diverse, cultural, community center, engaging both the Highlandtown Arts District and the greater Baltimore community. Focusing primarily on the visual arts, the Pinebox Art Center provides opportunities for creativity, communal joy, and intellectual reflection through thought-provoking exhibitions, cultural events, and a variety of classes and workshops for all skill levels. In addition, it provides local artists with affordable work space to further develop their practice through the studio center program. In November 2013, the Pinebox Art Center left its space located in the beautifully renovated King Cork and Seal Building at 101 N Haven St and began to operate nomadically with the goal of eventually purchasing a permanent exhibition space. Pinebox Art Center is directed by Vincent Valerio.</p>
                       <p class="lead"><a href="http://www.pineboxartcenter.com">pineboxartcenter.com</a></p>
@@ -141,7 +142,7 @@
                   </div>
                 </article>
               </div><!-- end nick cave -->
-              
+
             </div>
 
           </div>  <!-- END OFFSET COLUMN -->
@@ -159,7 +160,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+          <div id="dynamicreplacement" class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
 
             <hr class="border-top" />
 
@@ -174,7 +175,7 @@
                   <li>info@contemporary.org</li>
                 </ul>
               </div>
-              
+
               <nav class="col-sm-6 col-md-3">
                 <h3><a href="about.html">About</a></h3>
                 <ul>
@@ -196,7 +197,7 @@
                   <li><a href="speakerseries.html">Speaker Series</a></li>
                 </ul>
               </nav>
-    
+
               <nav class="col-sm-6 col-md-3">
                 <h3>Connect</h3>
                 <ul>
@@ -212,9 +213,9 @@
                   <li><a href="donate.html">Donate</a></li>
                 </ul>
               </nav>
-    
+
             </div>
-            
+
             <hr class="border-top" />
 
             <div class="row secondary">
@@ -222,9 +223,9 @@
               <p class="col-sm-3 text-right"><a href="http://www.ookb.co/">site by OOKB</a></p>
             </div>
             <!-- END FOOTER CONTENTS -->
-            
+
           </div><!-- END RIGHT OFFSET -->
-        
+
         </div>  <!-- END ROW -->
       </div>    <!-- END CONTAINER -->
     </footer>   <!-- END FOOTER -->
@@ -241,7 +242,7 @@
 
     <script>
       // print out menu automatically for these pages...
-      $.getJSON('json/speakermenu.json', function(data) { 
+      $.getJSON('json/speakermenu.json', function(data) {
         $.each(data.speakermenu, function(data) {
           $('ul#speakermenu').append('<li class="' + this["type"] + '"><a href="' + this["url"] + '">' + this["speaker"] + ' // ' + this["gallery"] + '</a></li>');
         });
@@ -257,6 +258,6 @@
       ga('create', 'UA-46130583-1', 'contemporary.org');
       ga('send', 'pageview');
     </script>
-    
+
   </body>
 </html>

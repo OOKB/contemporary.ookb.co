@@ -12,6 +12,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/legit.css" rel="stylesheet">
+    <link href="css/newfooter.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -92,7 +93,7 @@
     <div class="main" role="main">
       <div class="container">
         <div class="row">
-        
+
           <!-- Offset content slightly to the right -->
           <div class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
 
@@ -107,12 +108,12 @@
               <ul class="nav col-sm-2 jsonmade" id="speakermenu">
                 <!-- gonna insert links by magix! -->
               </ul>
-            
+
               <!-- Speaker panel -->
               <div class="col-sm-10">
 
                 <article>
-    
+
                   <section class="date-time row">
                     <p class="col-xs-12">
                       <time datetime="2014-03-05">Wednesday, March 5, 2014</time><br/>
@@ -120,7 +121,7 @@
 <!--                       <a href="http://www.eventbrite.com/e/cohosts-brendan-fowler-nudashank-tickets-9594648853"><button class="btn btn-default">Register Here</button></a> -->
                     </p>
                   </section>
-    
+
                   <div class="row">
                     <section class="col-sm-6 col-md-6 col-lg-6 speaker">
                       <h1>Brendan Fowler</h2>
@@ -129,13 +130,13 @@
                       <p class="new-century"><em>Spring 2012 (Andrea's Cousin's Cousin's House on Easter, Joel and Sean Installing at Untitled, Front of West Garfield at Night, Coronado Ter Table Flowers at Dusk)</em> // Archival pigment prints, frames, plexi // 47 x 49 x 5-1/2 // 2013<br/>
                         Image courtesy of the artist.</p>
                     </section>
-                    
+
                     <section class="col-sm-6 col-md-6 col-lg-6 sponsor">
-                    
+
                       <div class="artistswork add-bottom">
                         <img src="img/speakers/2014/bf.jpg" />
                       </div>
-                    
+
                       <h2 class="sponsorname">Cohosted with Nudashank</h3>
                       <p>Nudashank is an independent, artist-run gallery space in Baltimore, Maryland dedicated to showcasing young and emerging artists. Founded by Seth Adelsberger and Alex Ebstein in March of 2009, Nudashank shows national and international artwork in group, 2-person and solo exhibitions. Nudashank is located on the third floor of the H&H Building located at 405 W. Franklin Street– all hours are by appointment.</p>
                       <p class="lead"><a href="http://www.nudashank.com">nudashank.com</a></p>
@@ -161,7 +162,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+          <div id="dynamicreplacement" class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
 
             <hr class="border-top" />
 
@@ -176,7 +177,7 @@
                   <li>info@contemporary.org</li>
                 </ul>
               </div>
-              
+
               <nav class="col-sm-6 col-md-3">
                 <h3><a href="about.html">About</a></h3>
                 <ul>
@@ -198,7 +199,7 @@
                   <li><a href="speakerseries.html">Speaker Series</a></li>
                 </ul>
               </nav>
-    
+
               <nav class="col-sm-6 col-md-3">
                 <h3>Connect</h3>
                 <ul>
@@ -214,9 +215,9 @@
                   <li><a href="donate.html">Donate</a></li>
                 </ul>
               </nav>
-    
+
             </div>
-            
+
             <hr class="border-top" />
 
             <div class="row secondary">
@@ -224,9 +225,9 @@
               <p class="col-sm-3 text-right"><a href="http://www.ookb.co/">site by OOKB</a></p>
             </div>
             <!-- END FOOTER CONTENTS -->
-            
+
           </div><!-- END RIGHT OFFSET -->
-        
+
         </div>  <!-- END ROW -->
       </div>    <!-- END CONTAINER -->
     </footer>   <!-- END FOOTER -->
@@ -243,7 +244,7 @@
 
     <script>
       // print out menu automatically for these pages...
-      $.getJSON('json/speakermenu.json', function(data) { 
+      $.getJSON('json/speakermenu.json', function(data) {
         $.each(data.speakermenu, function(data) {
           $('ul#speakermenu').append('<li class="' + this["type"] + '"><a href="' + this["url"] + '">' + this["speaker"] + ' // ' + this["gallery"] + '</a></li>');
         });
@@ -259,6 +260,6 @@
       ga('create', 'UA-46130583-1', 'contemporary.org');
       ga('send', 'pageview');
     </script>
-    
+
   </body>
 </html>

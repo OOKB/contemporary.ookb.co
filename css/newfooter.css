@@ -1,13 +1,19 @@
 footer {
   margin-top: 2em;
 }
+
+/*********************/
+/*********************/
+/*********************/
+
 .sponsors h4 {
   border-bottom: 1px solid;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
 
-.sponsors ul {
+footer .sponsors ul {
+  padding-top: 7px;
   border-bottom: 1px solid;
   text-align: center;
 }
@@ -15,7 +21,42 @@ footer {
 .sponsors ul li {
   display: inline-block;
   vertical-align: middle;
-  margin: 0 1% 16px;
+  margin: 0 2% 16px;
+}
+
+.sponsors ul li:first-child {
+  margin-left: 0;
+}
+
+.sponsors ul li:last-child {
+  margin-right: 0;
+}
+
+.sponsors ul li:nth-child(1) {
+  width: 19%;
+}
+
+.sponsors ul li:nth-child(2) {
+  margin-top: -2px;
+  width: 9%;
+}
+
+.sponsors ul li:nth-child(3) {
+  margin-top: 3px;
+  width: 9%;
+}
+
+.sponsors ul li:nth-child(4) {
+  width: 16%;
+}
+
+.sponsors ul li:nth-child(5) {
+  margin-top: -5px;
+  width: 6%;
+}
+
+.sponsors ul li:nth-child(6) {
+  width: 16%;
 }
 
 .sponsors ul li img {
@@ -23,32 +64,19 @@ footer {
   max-width: 100%;
 }
 
-.sponsors ul li:nth-child(1) {
-  width:25%;
-}
-
-.sponsors ul li:nth-child(2),
-.sponsors ul li:nth-child(3) {
-  width:11%;
-}
-
-.sponsors ul li:nth-child(4),
-.sponsors ul li:nth-child(5) {
-  width: 20%;
-}
-
-.sponsors ul li:nth-child(2) {
-  margin-top: -2px;
-  width:12%;
-}
-
-.sponsors ul li:nth-child(3) {
-  margin-top: 3px;
-}
+/*********************/
+/*********************/
+/*********************/
 
 footer .blurb {
   margin-top: 18px;
   margin-bottom: 10px;
   font-size: 1.25em;
   text-transform: none;
+}
+
+#emailcapture h2 {
+  padding-right: 0;
+  font-size: 24px;
+  line-height: 32px;
 }
