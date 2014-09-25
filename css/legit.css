@@ -451,10 +451,14 @@ section img {
 
 .toggle .bio p {
   background: white;
-  margin: 0 -160px;
+  margin: 0;
   position: absolute;
   z-index: 9;
   padding: 15px;
+  box-sizing: border-box;
+  margin-left: -220px;
+  width: 440px;
+  left: 50%;
 }
 
 .email {margin-bottom: 15px;}
