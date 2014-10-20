@@ -576,3 +576,16 @@ h5 {
   margin-bottom: 2em;
 }
 
+.interior main a {
+  box-shadow: inset 0 -8px 0 rgba(24,73,123,.2);
+  border-bottom: 0px solid rgba(24,73,123,.2) !important;
+  text-decoration: none !important;
+  transition: box-shadow 400ms ease, border 400ms ease;
+}
+
+.interior main a:hover {
+  box-shadow: inset 0 0px 0 rgba(24,73,123,.8);
+  border-bottom: 2px solid rgba(24,73,123,.8) !important;
+  text-decoration: none !important;
+}
+
