@@ -567,4 +567,12 @@ h5 {
   margin-bottom: 0;
 }
 
+/** = Grit Fund Additions **/
+.hero, .hero img {
+  width: 100%;
+}
+
+.hero {
+  margin-bottom: 2em;
+}
 
