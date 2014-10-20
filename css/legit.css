@@ -567,15 +567,7 @@ h5 {
   margin-bottom: 0;
 }
 
-/** = Grit Fund Additions **/
-.hero, .hero img {
-  width: 100%;
-}
-
-.hero {
-  margin-bottom: 2em;
-}
-
+/** cool new link treatment **/
 .interior main a {
   box-shadow: inset 0 -8px 0 rgba(24,73,123,.2);
   border-bottom: 0px solid rgba(24,73,123,.2) !important;
@@ -589,10 +581,22 @@ h5 {
   text-decoration: none !important;
 }
 
-img.gfgray {
+/** = Grit Fund Additions **/
+.hero, .hero img {
+  width: 100%;
+}
+
+.hero {
+  margin-bottom: 2em;
+  height: 400px;
+  overflow: hidden;
+}
+
+.hero.gfgray {
   border: 2px solid #6A6B6D;
 }
 
-img.gfblue {
+.hero.gfblue {
   border: 2px solid #2981C9;
 }
+
