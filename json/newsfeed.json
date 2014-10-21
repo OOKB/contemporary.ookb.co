@@ -1,6 +1,12 @@
 {
     "newsfeed": [
         {
+            "url": "http://www.gritfund.org",
+            "text": "The <em>Grit Fund</em>, a $50,000 grants initiative.",
+            "humandate": "Oct 21, 2014",
+            "machinedate": "2014-10-21"
+        },
+        {
             "url": "http://www.citypaper.com/bob/",
             "text": "<em>CoHosts</em> wins a “Best of Baltimore” for best synergy",
             "humandate": "Sep 19, 2014",
