@@ -600,3 +600,35 @@ h5 {
   border: 2px solid #2981C9;
 }
 
+/*************************/
+
+#grit-text section {
+  padding-top: 51px;
+}
+
+#grit-text section:first-of-type {
+  padding-top: 0;
+}
+
+#grit-text ul {
+  margin: 0;
+  padding: 0;
+}
+#grit-text ul ul {
+  padding-left: 1em;
+}
+
+#grit-menu {
+  padding-top: 53px;
+}
+
+#grit-menu .affix-top,
+#grit-menu .affix-bottom {
+  position: relative;
+}
+
+#grit-menu .affix {
+  position: fixed;
+  top:63px;
+  width: inherit;
+}
