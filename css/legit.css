@@ -603,7 +603,7 @@ h5 {
 /*************************/
 
 #grit-text section {
-  padding-top: 51px;
+  padding-top: 5px;
 }
 
 #grit-text section:first-of-type {
@@ -613,6 +613,9 @@ h5 {
 #grit-text ul {
   margin: 0;
   padding: 0;
+}
+#grit-text ul ul {
+  padding-left: 1em;
 }
 #grit-text ul ul {
   padding-left: 1em;
@@ -631,4 +634,8 @@ h5 {
   position: fixed;
   top:63px;
   width: inherit;
+}
+
+.list-style-none {
+  list-style: none;
 }

@@ -185,7 +185,7 @@
 
                   <p>Your application must be completed online via <a href="http://thecontemporary.submittable.com">Submittable</a>. Paper applications are not accpeted. Access the online application at <a href="http://thecontemporary.submittable.com">thecontemporary.submittable.com</a></p>
 
-                  <ul>
+                  <ul class="list-style-none">
                     <li><strong>Apply online via <a href="http://thecontemporary.submittable.com">Submittable</a></strong></li>
                     <li><strong>applications open:</strong> January 12, 2015</li>
                     <li><strong>application deadline:</strong> February 20, 215 at 11:59 PM Eastern Standard Time.</li>
@@ -205,8 +205,8 @@
                 <section id="timeline">
                   <h2>Timeline</h2>
 
-                  <ul>
-                    <li>January 12 2015: Submissions open via Submittable</li>
+                  <ul class="list-style-none">
+                    <li>January 12 2015: <a href="http://thecontemporary.submittable.com">Submittable</a></li>
                     <li>January 13 2015: Information Session #1</li>
                     <li>January 28 2015: Information Session #2</li>
                     <li>February 4 2015: Information Session #3</li>
@@ -224,7 +224,7 @@
 
                   <p>The Contemporary will lead four free information sessions to provide more details on the application process, questions of eligibility, appropriate uses of grant funds and more. While attending an info session is encouraged, attendance is not required to apply for funding. </p>
 
-                  <ul>
+                  <ul class="list-style-none">
                     <li>
                       <p>
                         Tuesday, January 13, 2015<br>
@@ -272,15 +272,15 @@
               <nav class="visible-md visible-lg col-md-3" id="grit-menu">
                 <ul data-spy="affix" data-offset-top="583" data-offset-bottom="779">
 <!--                   <li><a href="#overview">Overview</a></li> -->
-                  <li><a href="#amounts">Grant Amounts</a></li>
-                  <li><a href="#eligibility">Eligibility</a></li>
-                  <li><a href="#funding">Funding Priorities</a></li>
-                  <li><a href="#process">Review/Selection</a></li>
-                  <li><a href="#apply">Application</a></li>
-                  <li><a href="#timeline">Timeline</a></li>
-                  <li><a href="#information">Information Sessions</a></li>
-                  <li><a href="#responsibilities">Artist Responsibilties</a></li>
-                  <li><a href="#inquiries">Inquiries</a></li>
+                  <li><a class="scroller-link" href="#amounts">Grant Amounts</a></li>
+                  <li><a class="scroller-link" href="#eligibility">Eligibility</a></li>
+                  <li><a class="scroller-link" href="#funding">Funding Priorities</a></li>
+                  <li><a class="scroller-link" href="#process">Review/Selection</a></li>
+                  <li><a class="scroller-link" href="#apply">Application</a></li>
+                  <li><a class="scroller-link" href="#timeline">Timeline</a></li>
+                  <li><a class="scroller-link" href="#information">Information Sessions</a></li>
+                  <li><a class="scroller-link" href="#responsibilities">Artist Responsibilties</a></li>
+                  <li><a class="scroller-link" href="#inquiries">Inquiries</a></li>
                 </ul>
               </nav>
 
@@ -309,21 +309,24 @@
       </div>    <!-- END CONTAINER -->
     </footer>   <!-- END FOOTER -->
 
-    <!-- Bootstrap core JavaScript -->
+    <!-- JavaScript -->
     <!-- ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <!-- ================================================== -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/ookb_for_tc.js"></script>
 
     <script>
       //Dynamic temporary footer loading solution
-
       $(document).ready(function() {
         $('footer #dynamicreplacement').load('/footer.html');
+      });
+
+      // scroll to content when you click on the logo. - retrieved from http://www.sycha.com/jquery-smooth-scrolling-internal-anchor-links
+      $(".scroller-link").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top - 50}, 700);
       });
 
     </script>
@@ -334,7 +337,9 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-46130583-1', 'contemporary.org');
+
+      ga('create', 'UA-46130583-1', 'auto');
+      ga('require', 'displayfeatures');
       ga('send', 'pageview');
     </script>
 
