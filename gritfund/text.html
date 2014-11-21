@@ -318,17 +318,11 @@
     <script src="/js/ookb_for_tc.js"></script>
 
     <script>
-      //Dynamic temporary footer loading solution
-      $(document).ready(function() {
-        $('footer #dynamicreplacement').load('/footer.html');
-      });
-
       // scroll to content when you click on the logo. - retrieved from http://www.sycha.com/jquery-smooth-scrolling-internal-anchor-links
       $(".scroller-link").click(function(event){
         event.preventDefault();
         $('html,body').animate({scrollTop:$(this.hash).offset().top - 50}, 700);
       });
-
     </script>
 
     <!-- Google Analytics -->
