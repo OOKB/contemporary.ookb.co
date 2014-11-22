@@ -651,3 +651,8 @@ h5 {
 .list-style-none {
   list-style: none;
 }
+
+#grit-text #apply h5 em {
+  font-weight: normal;
+  font-style: normal !important;
+}
