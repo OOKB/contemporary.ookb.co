@@ -614,11 +614,18 @@ h5 {
   margin: 0;
   padding: 0;
 }
+
+#grit-text section > ul > li {
+  margin-bottom: 4px;
+}
+
 #grit-text ul ul {
   padding-left: 1em;
 }
 #grit-text ul ul {
   padding-left: 1em;
+  font-style: italic;
+  list-style: none;
 }
 
 #grit-menu {
@@ -628,6 +635,11 @@ h5 {
 #grit-menu .affix-top,
 #grit-menu .affix-bottom {
   position: relative;
+}
+
+#grit-menu ul {
+  list-style: none;
+  padding: 0;
 }
 
 #grit-menu .affix {
