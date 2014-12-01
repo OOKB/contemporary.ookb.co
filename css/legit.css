@@ -747,3 +747,9 @@ small strong {
 .progress {
   margin-top: 2em;
 }
+
+/** temporary homepage updates for rest of 2014 **/
+.big-graphic img {
+  max-width: 100%;
+  height: auto;
+}
