@@ -272,6 +272,18 @@ img.fit {width: 100%;}
 @media (min-width: 768px) {
 }
 
+/*** Colors ***/
+
+/*
+  red           rgba(241,97,74,1)
+  orange        rgba(255,117,44,1)
+  yellow        rgba(255,234,58,1)
+  light green   rgba(201,222,121,1)
+  dark green    rgba(40,109,76,1)
+  blue          rgba(0,75,124,1)
+  dark blue     rgba(26,42,53,1)
+*/
+
 /******************************************/
 /******************************************/
 /* HOMEPAGE STUFF */
@@ -666,3 +678,31 @@ h5 {
 #grit-text dd {
   margin-left: 150px;
 }
+
+.progress {
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.progress .progress-bar {
+  color: rgba(201,222,121,1);
+  background: rgba(40,109,76,1);
+  padding-top: 7px;
+  letter-spacing: 1px;
+  font-size: 1em;
+}
+
+.progress > .remainder {
+  color: rgba(40,109,76,1);
+  background: rgba(201,222,121,1);
+  float: left;
+  text-align: center;
+  padding-top: 7px;
+  border-left: none;
+  height: 30px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  letter-spacing: 1px;
+  font-size: 1em;
+}
+
