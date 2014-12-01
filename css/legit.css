@@ -85,7 +85,7 @@ h1,h2,h3,h4,h5,h6 { font-weight: 700; }
 html, body { background-color: white; }
 
 article a, section a, .link-lists a {
-  color: #2b4557 !important;
+  color: #2b4557;
 }
 
 a {
@@ -731,4 +731,17 @@ small strong {
 .twentyfive main p a {
   text-decoration: none;
   border-bottom: 1px solid rgba(241,97,74,1);
+}
+
+.twentyfive main p a:hover {
+  color: rgba(241,97,74,1);
+  border-bottom: 1px solid inherit;
+}
+
+.semi-lead p {
+  font-size: 125%;
+}
+
+.progress {
+  margin-top: 2em;
 }
