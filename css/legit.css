@@ -724,3 +724,7 @@ h5 {
   height: 100%;
 }
 
+small strong {
+  color: red;
+  font-weight: bold;
+}
