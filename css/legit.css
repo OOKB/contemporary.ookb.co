@@ -75,6 +75,18 @@
 /** SERIF: font-family: 'New Century Schoolbook', Constantia, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 ; **/
 
+/*** Colors ***/
+
+/*
+  red           rgba(241,97,74,1)
+  orange        rgba(255,117,44,1)
+  yellow        rgba(255,234,58,1)
+  light green   rgba(201,222,121,1)
+  dark green    rgba(40,109,76,1)
+  blue          rgba(0,75,124,1)
+  dark blue     rgba(26,42,53,1)
+*/
+
 html,body,h1,h2,h3,h4,h5,h6,p {
   font-family: 'Franklin Gothic', 'Liberation Sans', 'Nimbus Sans L', Helvetica, Arial, Sans-Serif;
   color: #1a2a35;
@@ -270,18 +282,6 @@ img.fit {width: 100%;}
 
 @media (min-width: 768px) {
 }
-
-/*** Colors ***/
-
-/*
-  red           rgba(241,97,74,1)
-  orange        rgba(255,117,44,1)
-  yellow        rgba(255,234,58,1)
-  light green   rgba(201,222,121,1)
-  dark green    rgba(40,109,76,1)
-  blue          rgba(0,75,124,1)
-  dark blue     rgba(26,42,53,1)
-*/
 
 /******************************************/
 /******************************************/
@@ -707,6 +707,36 @@ h5 {
   font-size: 1em;
 }
 
+.home .progress,
+.home .progress .progress-bar,
+.home .progress > .remainder,
+.home .embed-container {
+  margin: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.home .progress,
+.home .progress .progress-bar,
+.home .progress > .remainder {
+  height: 72px;
+}
+
+.home .progress .progress-bar,
+.home .progress > .remainder {
+  padding-top: 28px;
+}
+
+.home .progress .progress-bar {
+  color: white;
+  background: rgba(0,75,124,1);
+}
+
+.home .progress > .remainder {
+  color: rgba(26,42,53,1);
+  background: rgba(241,97,74,1);
+}
+
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -723,6 +753,20 @@ h5 {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.embed-container h2 {
+  position: absolute;
+  top: 33%;
+  left: 12%;
+  width: 75%;
+  padding: 2%;
+  background: white;
+  transform: rotate(-11.25deg);
+}
+
+.embed-container:hover h2 {
+  display: none;
 }
 
 small strong {
@@ -752,4 +796,29 @@ small strong {
 .big-graphic img {
   max-width: 100%;
   height: auto;
+}
+
+.home .diptych,
+.home .triptych {
+  margin-top: 2em;
+}
+
+.home .diptych section,
+.home .triptych section {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  .home .tall-stripe {
+    background: rgba(241,97,74,1);
+    height: 362px;
+    position: relative;
+    left: 15px;
+  }
+}
+
+@media (min-width:1200px) {
+  .home .tall-stripe {
+    height: 440px;
+  }
 }
