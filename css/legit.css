@@ -647,6 +647,11 @@ h5 {
   margin-left: 150px;
 }
 
+#grit-text #information .list-style-none h4 {
+  padding-top: 1em;
+  margin-bottom: .111em;
+}
+
 .progress {
   margin-left: -4px;
   margin-right: -4px;
@@ -793,3 +798,4 @@ small strong {
     height: 440px;
   }
 }
+
