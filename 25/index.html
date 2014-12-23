@@ -270,14 +270,13 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/ookb_for_tc.js"></script>
 
     <!-- use google spreadsheet to populate the graph -->
     <script>
       $(document).ready(function() {
         $.getJSON("https://spreadsheets.google.com/feeds/list/15KEQWoixMLpIPYac3DchFU81BUai06W4VuRiNcw8bIo/od6/public/values?alt=json", function(data) {
           var raised        = data.feed.entry[0]['gsx$raised']['$t'];
-          var remainder     = 25000 - raised;
+          var remainder     = data.feed.entry[0]['gsx$left']['$t'];
           var percentRaised = data.feed.entry[0]['gsx$_cre1l']['$t'];
           var percentLeft   = 100 - percentRaised;
           $('.progress.thermometer .progress-bar > span').html(raised);
@@ -293,6 +292,8 @@
         $('.progress.thermometer').clone().appendTo("#twentyfive").addClass('add-top');
       });
     </script>
+
+    <script src="/js/ookb_for_tc.js"></script>
 
     <!-- Google Analytics -->
     <script>
