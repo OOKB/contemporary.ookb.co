@@ -759,6 +759,10 @@ small strong {
   margin-top: 2em;
 }
 
+.progress * {
+  transition: all 400ms;
+}
+
 /** temporary homepage updates for rest of 2014 **/
 .big-graphic img {
   max-width: 100%;
