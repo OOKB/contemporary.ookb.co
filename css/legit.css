@@ -632,6 +632,16 @@ h5 {
   list-style: none;
 }
 
+.home .list-style-none {
+  margin: 0;
+  padding: 0;
+}
+
+.home .list-style-none h4 {
+  font-size: 1.1111em;
+  margin-bottom: .25em;
+}
+
 #grit-text #apply h5 em {
   font-weight: normal;
   font-style: normal !important;
@@ -799,3 +809,47 @@ small strong {
   }
 }
 
+a.border-btn {
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  padding: .33em;
+  display: block;
+  font-size: 2em;
+  line-height: 2em;
+  border: 3px solid !important;
+  border-radius: .33em;
+  font-family: 'New Century Schoolbook', Constantia, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  margin: 0;
+}
+
+a.border-btn:hover {
+  box-shadow: none;
+  border: 3px solid !important;
+  background: rgba(26,42,53,.1);
+}
+
+.grit a.border-btn {
+  font-size: 2em;
+  line-height: 2em;
+  margin: .66em 0;
+  border: 3px solid !important;
+  box-shadow: none;
+}
+
+.grit a.border-btn:hover {
+  border: 3px solid !important;
+  box-shadow: none;
+}
+
+.home a.border-btn {
+  font-size: 1em;
+  line-height: 1.66666em;
+  margin: .44em 0 1.44em;
+  border: 2px solid !important;
+  width: 200px;
+}
+
+.home a.border-btn:hover {
+  border: 2px solid !important;
+}
