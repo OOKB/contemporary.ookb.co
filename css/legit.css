@@ -848,6 +848,7 @@ a.border-btn:hover {
   margin: .44em 0 1.44em;
   border: 2px solid !important;
   display: inline-block;
+  padding: .44em 1em .22em;
 }
 
 .home a.border-btn:hover {
