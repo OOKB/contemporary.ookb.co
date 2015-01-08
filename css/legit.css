@@ -847,7 +847,7 @@ a.border-btn:hover {
   line-height: 1.66666em;
   margin: .44em 0 1.44em;
   border: 2px solid !important;
-  width: 200px;
+  display: inline-block;
 }
 
 .home a.border-btn:hover {
