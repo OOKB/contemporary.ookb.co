@@ -96,20 +96,24 @@ h1,h2,h3,h4,h5,h6 { font-weight: 700; }
 
 html, body { background-color: white; }
 
-article a, section a, .link-lists a {
-  color: #2b4557;
+article a,
+section a,
+.link-lists a {
+  color: rgba(26,42,53,1);
 }
 
 a {
-  color: #2b4557;
+  color: rgba(26,42,53,1);
   text-decoration: none;
+  border-bottom: 1px solid rgba(241,97,74,1);
+  transition: all 400ms;
 }
 
 a:hover,
 a:focus {
-  color: #0f181e;
+  color: rgba(0,75,124,1);
   text-decoration: none;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid rgba(241,97,74,.5);
 }
 
 .uppercase {
@@ -249,6 +253,32 @@ img.fit {width: 100%;}
 .navbar-toggle:active,
 .navbar-toggle:focus {
   background-color: #CDDCE7;
+}
+
+.navbar-nav a {
+  border-bottom: none;
+}
+
+.nav .caret {
+  border-top-color: rgba(26,42,53,1);
+  border-bottom-color: rgba(26,42,53,1);
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #eff4f7;
+  border-color: rgba(26,42,53,1);
+}
+
+.navbar-nav > li > .dropdown-menu {
+  margin-top: -10px;
+}
+
+.navbar-nav > li > .dropdown-menu > li > a {
+  color: rgba(26,42,53,1);
+}
+
+.navbar-nav > li > .dropdown-menu > li > a:hover {
+  background: transparent;
+  color: rgba(241,97,74,1);
 }
 
 /******************************************/
@@ -526,7 +556,7 @@ footer .row ul {
 
 footer h3 { letter-spacing: 1px;}
 footer, footer h3, footer p, footer a { color: #1a2a35; }
-footer a:hover { color: #2b4557 !important; }
+footer a:hover { color: rgba(241,97,74,1) !important; }
 
 footer .secondary p,
 footer .secondary a { font-size: 10px !important; letter-spacing: 1px;}
@@ -545,6 +575,11 @@ h5 {
   font-size: 14px;
   margin-top: 20px;
   margin-bottom: 0;
+}
+
+footer a, footer a:hover {
+  border-bottom: none;
+  text-decoration: none;
 }
 
 /** cool new link treatment **/
@@ -754,16 +789,6 @@ h5 {
 small strong {
   color: red;
   font-weight: bold;
-}
-
-.twentyfive main p a {
-  text-decoration: none;
-  border-bottom: 1px solid rgba(241,97,74,1);
-}
-
-.twentyfive main p a:hover {
-  color: rgba(241,97,74,1);
-  border-bottom: 1px solid inherit;
 }
 
 .semi-lead p {
