@@ -380,7 +380,8 @@ img.fit {width: 100%;}
 }
 
 .link-lists ul,
-.upcoming ul {
+.upcoming ul,
+aside #upcoming {
   border-top: 3px solid #1a2a35;
   list-style: none;
   margin: 0;
@@ -388,7 +389,8 @@ img.fit {width: 100%;}
 }
 
 .link-lists ul li,
-.upcoming ul li {
+.upcoming ul li,
+aside #upcoming > li {
   border-top: 1px solid #1a2a35;
   list-style: none;
   margin: 0;
@@ -410,6 +412,33 @@ img.fit {width: 100%;}
   margin-top: 3px;
   margin-bottom: -2px;
 }
+
+#upcoming > li ul {
+  padding: .33em 0;
+  margin: 0;
+  list-style: none;
+  line-height: 1.25;
+}
+
+#upcoming > li ul > li {
+  text-indent: -1em;
+  padding-left: 1em
+}
+
+#upcoming li span.date {
+  font-size: 150%;
+  line-height: inherit;
+}
+
+#upcoming li a {
+  border-bottom: none;
+  padding: 0;
+}
+
+#upcoming li a:hover {
+  border-bottom: 1px solid;
+}
+
 
 /******************************************/
 /******************************************/
@@ -878,4 +907,15 @@ a.border-btn:hover {
 
 .home a.border-btn:hover {
   border: 2px solid !important;
+}
+
+.victoria aside * {
+  margin: 0;
+  padding: 0;
+  line-height: 1.33;
+}
+
+.victoria aside ul {
+  margin: 1em 0 0 0;
+  list-style: none;
 }

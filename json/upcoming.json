@@ -1,12 +1,60 @@
 {
-    "speakermenu": [
+    "upcomingEvents": [
+        {
+            "url": "/gritfund/",
+            "event": "Grit Fund: Information Session #2",
+            "location": "Station North",
+            "humandate": "Jan 28",
+            "time": "12:00pm"
+        },
         {
             "url": "speakerseries.html",
-            "speaker": "+ TWO MORE!",
-            "type": "future",
-            "gallery": " ",
-            "humandate": " ",
-            "machinedate": " "
+            "event": "CoHosts: Letha Wilson & ICA Baltimore",
+            "location": "Baltimore School for the Arts",
+            "humandate": "Jan 29",
+            "time": "6:00pm"
+        },
+        {
+            "url": "/gritfund/",
+            "event": "Grit Fund: Information Session #3",
+            "location": "The Creative Alliance",
+            "humandate": "Feb 04",
+            "time": "6:00pm"
+        },
+        {
+            "url": "/gritfund/",
+            "event": "Grit Fund: Information Session #4",
+            "location": "Eubie Blake National Jazz Institute and Cultural Center ",
+            "humandate": "Feb 10",
+            "time": "6:00pm"
+        },
+        {
+            "url": "projects.html",
+            "event": "Bubble Over Green: Opening Reception",
+            "location": "101 W. North Avenue",
+            "humandate": "Feb 21",
+            "time": "7:00pm"
+        },
+        {
+            "url": "projects.html",
+            "event": "Bubble Over Green: Artist Talk",
+            "location": "Fred Lazarus IV Center for Graduate Studies, MICA",
+            "humandate": "Feb 23",
+            "time": "6:00pm"
+        },
+        {
+            "url": "projects.html",
+            "event": "Bubble Over Green: Curatorial Tour",
+            "location": "101 W. North Avenue",
+            "humandate": "Mar 12",
+            "time": "7:00pm"
+        },
+        {
+            "url": "projects.html",
+            "event": "Bubble Over Green: Closing Reception",
+            "location": "101 W. North Avenue",
+            "humandate": "Mar 27",
+            "time": "7:00pm"
         }
     ]
 }
