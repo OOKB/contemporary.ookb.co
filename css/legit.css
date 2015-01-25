@@ -92,6 +92,9 @@ html,body,h1,h2,h3,h4,h5,h6,p {
   color: #1a2a35;
 }
 
+.serif { font-family: 'New Century Schoolbook', Constantia, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif !important; }
+
+
 h1,h2,h3,h4,h5,h6 { font-weight: 700; }
 
 html, body { background-color: white; }
@@ -521,6 +524,22 @@ section img {
 .project-thumb p {
   line-height: 1.2;
   margin-bottom: 5px;
+}
+
+#current aside h3,
+#current aside h3 * {
+  margin: 0;
+}
+
+#current aside ul {
+  margin: 0;
+  padding: .5em 0 ;
+}
+
+#current aside ul li,
+#current aside ul li * {
+  margin: 0;
+  padding: 0;
 }
 
 /* Speaker Series styles */
