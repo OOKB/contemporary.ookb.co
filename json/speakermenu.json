@@ -1,6 +1,14 @@
 {
     "speakermenu": [
         {
+            "url": "2015-02-17-tamssyearten.html",
+            "speaker": "Tamms Year Ten",
+            "type": "",
+            "gallery": "John Fonda Gallery",
+            "humandate": "Feb 17",
+            "machinedate": "2015-02-17"
+        },
+        {
             "url": "2015-01-29-lethawilson.html",
             "speaker": "Letha Wilson",
             "type": "",
