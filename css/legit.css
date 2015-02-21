@@ -887,6 +887,7 @@ small strong {
   }
 }
 
+p.bordered-text,
 a.border-btn {
   text-align: center;
   border: none;
@@ -942,4 +943,9 @@ a.border-btn:hover {
 .victoria aside ul {
   margin: 1em 0 0 0;
   list-style: none;
+}
+
+.alert p.lead {
+  line-height: 21px;
+  margin-top: 6px;
 }
