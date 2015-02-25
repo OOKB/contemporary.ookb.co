@@ -2,20 +2,6 @@
     "upcomingEvents": [
         {
             "url": "projects.html",
-            "event": "Bubble Over Green: Opening Reception",
-            "location": "101 W. North Avenue",
-            "humandate": "Postponed: Now on Monday, Feb 23",
-            "time": "7:00pm"
-        },
-        {
-            "url": "projects.html",
-            "event": "Bubble Over Green: Artist Talk",
-            "location": "Fred Lazarus IV Center for Graduate Studies, MICA",
-            "humandate": "Feb 23",
-            "time": "6:00pm"
-        },
-        {
-            "url": "projects.html",
             "event": "Bubble Over Green: Curatorial Tour",
             "location": "101 W. North Avenue",
             "humandate": "Mar 12",
