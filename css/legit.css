@@ -949,3 +949,21 @@ a.border-btn:hover {
   line-height: 21px;
   margin-top: 6px;
 }
+
+dl .past {
+  text-decoration: line-through;
+}
+
+/** Scroll Related
+    ======================= **/
+
+.issue img {
+  max-width: 100%;
+  width: initial;
+}
+
+.issue .issue-info {
+  margin: 1em 0 0 0;
+  padding: 0;
+  list-style: none;
+}

@@ -134,22 +134,6 @@
                 </div>
 
                 <div class="item">
-                    <img src="img/headers/bobsandwich.jpg" alt="Best of Baltimore - Twice!">
-                    <div class="carousel-caption">
-                      <h2><em>CoHosts</em> won "Best Speaker Series" in Baltimore Magazine's 2014 "Best of Baltimore", and it also won "Best Synergy" in City Paper's "Best of Baltimore" listings.</h2>
-                    </div>
-                </div>
-
-                <div class="item">
-                  <a href="http://issuu.com/thecontemporary/docs/scroll_i_don_t_care_i_love_it/0" class="no-styles">
-                    <img src="img/headers/scroll-home.jpg" alt="Scroll #1">
-                    <div class="carousel-caption">
-                      <h2>Scroll #1: I Don’t Care, I Love It</h2>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="item">
                   <a href="https://vimeo.com/thecontemporarymuseum" class="no-styles">
                     <img src="img/headers/vimeo-homepage.jpg" alt="All our lectures are archived">
                     <div class="carousel-caption">
@@ -158,33 +142,7 @@
                   </a>
                 </div>
 
-                <div class="item">
-                  <a href="projects.html#council" class="no-styles">
-                    <img src="img/headers/home-f2.jpg" alt="...">
-                    <div class="carousel-caption">
-                      <h2>Meet our <br/>Curatorial Advisory Council.</h2>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="item">
-                  <a href="speakerseries.html" class="no-styles">
-                    <img src="img/headers/home-f3.jpg" alt="...">
-                    <div class="carousel-caption">
-                      <h2>CoHosts. <br/>Our 2014 Speaker Series.</h2>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="item">
-                  <a href="press.html" class="no-styles">
-                    <img src="img/headers/home-f4.jpg" alt="...">
-                    <div class="carousel-caption">
-                      <h2>Press, <br/>Kind Words, <br/>Etc.</h2>
-                    </div>
-                  </a>
-                </div>
-              </div>
+              </div><!-- end slide! -->
 
               <!-- Controls -->
               <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -211,8 +169,8 @@
                 <div class="homepage-graphic">
                   <h2>Upcoming</h2>
                 </div>
-                <div id="speakers" class="link-lists">
-                  <ul id="speakerlist" class="jsonmade list">
+                <div class="link-lists">
+                  <ul id="upcoming" class="jsonmade list">
                     <!-- printing this out with json magix -->
                   </ul>
                   <small>All <em>CoHosts</em> will take place at the Baltimore School for the Arts.</small>
@@ -335,7 +293,7 @@
       $.getJSON('json/upcoming.json', function(data) {
         $.each(data.upcomingEvents, function(data) {
           console.log(this["event"]);
-          $('aside #upcoming').append('<li class="eventItem"><a href="' + this["url"] + '"><ul><li><span class="date">' + this["humandate"] + '</span> // ' + this["event"] + '</a></li><li>' + this["location"] + '</li><li>' + this["time"] + '</li></ul></a></li>');
+          $('#upcoming').append('<li class="eventItem"><a href="' + this["url"] + '"><ul><li><span class="date">' + this["humandate"] + '</span> // ' + this["event"] + '</a></li><li>' + this["location"] + '</li><li>' + this["time"] + '</li></ul></a></li>');
         });
       });
     </script>
