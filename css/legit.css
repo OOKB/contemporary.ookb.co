@@ -383,8 +383,8 @@ img.fit {width: 100%;}
 }
 
 .link-lists ul,
-.upcoming ul,
-aside #upcoming {
+aside #upcoming,
+.jsonmade {
   border-top: 3px solid #1a2a35;
   list-style: none;
   margin: 0;
@@ -393,7 +393,7 @@ aside #upcoming {
 
 .link-lists ul li,
 .upcoming ul li,
-aside #upcoming > li {
+.jsonmade > li {
   border-top: 1px solid #1a2a35;
   list-style: none;
   margin: 0;
@@ -416,34 +416,37 @@ aside #upcoming > li {
   margin-bottom: -2px;
 }
 
-#upcoming > li ul {
+#upcoming > li ul,
+.jsonmade > li ul {
   padding: .33em 0;
   margin: 0;
   list-style: none;
   line-height: 1.25;
 }
 
-#upcoming > li ul > li {
+#upcoming > li ul > li,
+.jsonmade > li ul > li {
   text-indent: -1em;
   padding-left: 1em
 }
 
-#upcoming li span.date {
+#upcoming li span.date,
+.jsonmade li span.date {
   font-weight: bold;
   line-height: inherit;
   color: rgba(241,97,74,1);
 }
 
-#upcoming li a {
+.jsonmade li a {
   border-bottom: none;
   padding: 0;
 }
 
-#upcoming li a:hover {
+.jsonmade li a:hover {
   border-bottom: 1px solid rgba(241,97,74,.25);
 }
 
-#upcoming li a:hover span.date{
+.jsonmade li a:hover span.date{
   color:inherit;
 }
 

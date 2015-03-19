@@ -2,17 +2,31 @@
     "upcomingEvents": [
         {
             "url": "projects.html",
-            "event": "Bubble Over Green: Curatorial Tour",
-            "location": "101 W. North Avenue",
-            "humandate": "Mar 12",
-            "time": "7:00pm"
-        },
-        {
-            "url": "projects.html",
-            "event": "Bubble Over Green: Closing Reception",
+            "text": "<em>Bubble Over Green</em>: Closing Reception",
             "location": "101 W. North Avenue",
             "humandate": "Mar 27",
             "time": "7:00pm"
+        },
+        {
+            "url": "scroll.html",
+            "text": "<em>Scroll: Bound<sup>2</sup></em> Release at Open Space PMFVI",
+            "location": "Baltimore Design School, 1500 Barclay St, Baltimore, MD 21202",
+            "humandate": "Mar 28",
+            "time": "12:00-6:00pm"
+        },
+        {
+            "url": "projects.html",
+            "text": "<em>Bubble Over Green</em>: Closes",
+            "location": "101 W. North Avenue",
+            "humandate": "Apr 3",
+            "time": ""
+       },
+        {
+            "url": "/gritfund/",
+            "text": "Grit Fund Announcement",
+            "location": "",
+            "humandate": "Apr 22",
+            "time": ""
         }
     ]
 }
