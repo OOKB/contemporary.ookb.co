@@ -1,10 +1,17 @@
 {
     "upcomingEvents": [
         {
-            "url": "/gritfund/",
-            "text": "Grit Fund Announcement",
+            "url": "http://www.podcastsonprocess.com/",
+            "text": "Podcasts on Process",
             "location": "",
-            "humandate": "Apr 22",
+            "humandate": "May 1",
+            "time": ""
+        },
+        {
+            "url": "",
+            "text": "<em>Talking Shop</em> Coming Soon",
+            "location": "",
+            "humandate": "",
             "time": ""
         }
     ]
