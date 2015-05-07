@@ -9,10 +9,17 @@
         },
         {
             "url": "",
-            "text": "<em>Talking Shop</em>, our 2015 Speaker Series, kicks off on May 21",
-            "location": "",
+            "text": "<em>Talking Shop</em>: 3D Printing + Access",
+            "location": "Baltimore School for the Arts",
             "humandate": "May 21",
-            "time": ""
+            "time": "7PM"
+        },
+        {
+            "url": "",
+            "text": "<em>Talking Shop</em>: Health + Inequity",
+            "location": "Baltimore School for the Arts",
+            "humandate": "June 29",
+            "time": "7PM"
         }
     ]
 }
