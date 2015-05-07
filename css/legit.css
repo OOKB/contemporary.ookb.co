@@ -592,6 +592,19 @@ section img {
   font-weight: 700;
 }
 
+ul.nav-stacked.scoot-down {
+  border-top: 1px solid;
+  font-size: 80%;
+}
+
+ul.nav-stacked.scoot-down li {
+  border-bottom: 1px solid rgba(241,97,74,1);
+}
+
+ul.nav-stacked.scoot-down li a {
+  border-bottom: none;
+}
+
 /* some new styles for JSON fed lists to hide past things... */
 .jsonmade li.past { text-decoration: line-through; ;}
 .jsonmade li.past, .jsonmade li.past a { color: #abc4d6;}
