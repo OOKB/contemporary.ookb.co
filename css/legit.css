@@ -146,6 +146,10 @@ em, cite {font-style: italic !important;}
 .btn.add-top {margin-top: 30px;}
 img.fit {width: 100%;}
 
+@media (min-width: 992px) {
+  .md-no-top { margin-top: 0; }
+}
+
 /******************************************/
 /******************************************/
 /* NAVIGATION STUFF - Overrides a lot of default bootstrap stuff */
