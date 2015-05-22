@@ -1006,3 +1006,11 @@ dl .past {
   padding: 0;
   list-style: none;
 }
+
+/** Opportunity / Internship related
+    ======================= **/
+
+.opportunity > ul {
+  list-style: none;
+  padding: 0;
+}
