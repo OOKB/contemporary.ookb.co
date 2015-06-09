@@ -145,6 +145,9 @@ em, cite {font-style: italic !important;}
 .disabled { display: none !important; }
 .btn.add-top {margin-top: 30px;}
 img.fit {width: 100%;}
+.baseline-shift {
+  margin-top: -2.66em;
+}
 
 @media (min-width: 992px) {
   .md-no-top { margin-top: 0; }
@@ -581,6 +584,8 @@ section img {
 #speakers .row h2, #archive .row h2 {margin-bottom: 0; font-size: 1.25em;}
 #speakers .row div .btn {margin-bottom: 15px; width: 100%;}
 #archive .row p {margin-bottom: 0; }
+
+#speakers .upcoming p { margin-bottom: 0; } 
 
 /* individual speaker pages */
 .date-time, .date-time p {
