@@ -209,6 +209,14 @@ img.fit {
   margin-top: -2.66em;
 }
 
+.block-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none !important;
+  border: none !important;
+}
+
 @media (min-width: 992px) {
   .md-no-top {
     margin-top: 0;
