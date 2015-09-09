@@ -1,6 +1,16 @@
 {
     "tsmenu": [
         {
+            "url": "/talkingshop/2015-09-30-humor-absurdity.html",
+            "title": "Humor + Absurdity",
+            "one": "Jerry Saltz",
+            "two": "Stavros Halkias",
+            "moderator": "Lu Zhang",
+            "humandate": "September 30",
+            "time": "7pm",
+            "type": ""
+        },
+        {
             "url": "/talkingshop/2015-06-15-health-inequity.html",
             "title": "Health + Inequity",
             "one": "LaToya Ruby Frazier",
