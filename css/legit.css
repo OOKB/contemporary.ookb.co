@@ -895,11 +895,9 @@ footer a:hover {
   width: inherit;
 }
 
-.list-style-none {
-  list-style: none;
-}
-
+.list-style-none,
 .home .list-style-none {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
