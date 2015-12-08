@@ -814,17 +814,23 @@ footer a:hover {
 /** cool new link treatment **/
 
 .interior main a {
-  box-shadow: inset 0 -8px 0 rgba(24, 73, 123, .2);
-  border-bottom: 0px solid rgba(24, 73, 123, .2) !important;
+  box-shadow: inset 0 -6px 0 rgba(24, 73, 123, .2);
+  border-bottom: 1px solid rgba(24, 73, 123, .2) !important;
   text-decoration: none !important;
-  transition: box-shadow 400ms ease, border 400ms ease;
+  transition: all 400ms ease, border 400ms ease;
 }
 
 .interior main a:hover {
   box-shadow: inset 0 0px 0 rgba(24, 73, 123, .8);
-  border-bottom: 2px solid rgba(24, 73, 123, .8) !important;
+  border-bottom: 1px solid rgba(24, 73, 123, .8) !important;
   text-decoration: none !important;
 }
+
+.interior main a.btn {
+  box-shadow: none;
+  border-bottom: none;
+}
+
 /** = Grit Fund Additions **/
 
 .hero,
