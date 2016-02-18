@@ -1,30 +1,51 @@
 {
     "newsFeed": [
         {
+            "url": "/gritfund/",
+            "text": "GritFund Recipient to be Announced",
+            "humandate": "Mar 25, 2016",
+            "location": "",
+            "time": ""
+        },
+        {
+            "url": "/gritfund/",
+            "text": "GritFund Applications closed",
+            "humandate": "Jan 29, 2016",
+            "location": "",
+            "time": ""
+        },
+        {
+            "url": "/gritfund/",
+            "text": "Second Grit Fund round Applications Open!",
+            "humandate": "Dec 08, 2015",
+            "location": "",
+            "time": ""
+        },
+        {
             "url": "/speakerseries.html",
             "text": "Talking Shop, the 2015 speaker series, picking up again in the Fall",
-            "humandate": "May 7",
+            "humandate": "May 7, 2015",
             "location": "",
             "time": ""
         },
         {
             "url": "/gritfund/",
             "text": "First Grit Fund round of grantees announced!",
-            "humandate": "Apr 22",
+            "humandate": "Apr 22, 2015",
             "location": "",
             "time": ""
         },
         {
             "url": "http://hyperallergic.com/193686/the-seduction-of-screens-and-neon-at-night/",
             "text": "Hyperallergic Review: <em>Bubble Over Green</em>",
-            "humandate": "Mar 26",
+            "humandate": "Mar 26, 2015",
             "location": "",
             "time": ""
         },
         {
             "url": "http://www.contemporary.org/about.html#council",
             "text": "Prem Krishnamurthy joins CAC",
-            "humandate": "Mar 20",
+            "humandate": "Mar 20, 2015",
             "location": "",
             "time": ""
         }
