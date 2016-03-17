@@ -962,8 +962,7 @@ footer a:hover {
 
 .home .progress,
 .home .progress .progress-bar,
-.home .progress > .remainder,
-.home .embed-container {
+.home .progress > .remainder {
   margin: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -988,20 +987,6 @@ footer a:hover {
 .home .progress > .remainder {
   color: rgba(26, 42, 53, 1);
   background: rgba(241, 97, 74, 1);
-}
-
-.embed-container h2 {
-  position: absolute;
-  top: 33%;
-  left: 12%;
-  width: 75%;
-  padding: 2%;
-  background: white;
-  transform: rotate(-11.25deg);
-}
-
-.embed-container:hover h2 {
-  display: none;
 }
 
 small strong {
