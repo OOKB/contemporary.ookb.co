@@ -2,17 +2,17 @@
     "upcomingEvents": [
         {
             "url": "/projects/",
-            "text": "<em>Only When It's Dark Enough Can You See The Stars</em> Curatorial Tour",
-            "location": "The former Peale Museum located at 225 N. Holiday Street",
-            "humandate": "05/18",
-            "time": "7-8:30pm"
-        },
-        {
-            "url": "/projects/",
             "text": "<em>Only When It's Dark Enough Can You See The Stars</em> Closing Reception",
             "location": "The former Peale Museum located at 225 N. Holiday Street",
             "humandate": "06/11",
             "time": "7-10pm"
+        },
+        {
+            "url": "/artist-retreat/",
+            "text": "Artist Retreat applications close",
+            "location": "",
+            "humandate": "06/13",
+            "time": ""
         }
     ]
 }
