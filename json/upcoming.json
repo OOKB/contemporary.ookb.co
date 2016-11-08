@@ -1,18 +1,25 @@
 {
-    "upcomingEvents": [
-      {
-          "url": "/pdf/2016-17_InternApplication.pdf",
-          "text": "The Contemporary is currently accepting Internship Applications for September 2016 - May 2017. Visit contemporary.org/internshipapplication to apply. The deadline is July 5, 2016.",
-          "location": "",
-          "humandate": "07/05",
-          "time": ""
-      },
-      {
-          "url": "/artist-retreat/",
-          "text": "Artist Retreat",
-          "location": "",
-          "humandate": "08/04-08/07",
-          "time": ""
-      }
-    ]
+  "upcomingEvents": [
+    {
+      "url": "/speakerseries.html",
+      "text": "CoHosts II: The Yes Men + Transmodern Festival",
+      "location": "",
+      "humandate": "11/28",
+      "time": ""
+    },
+    {
+      "url": "/gritfund/",
+      "text": "Grit Fund, round 3, opens on Submittable",
+      "location": "",
+      "humandate": "12/06",
+      "time": ""
+    },
+    {
+      "url": "/speakerseries.html",
+      "text": "CoHosts II: Kimberly Drew + Platform Gallery",
+      "location": "",
+      "humandate": "12/12",
+      "time": ""
+    }
+  ]
 }
