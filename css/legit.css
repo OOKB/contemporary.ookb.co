@@ -100,6 +100,14 @@ p {
   font-family: 'New Century Schoolbook', Constantia, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif !important;
 }
 
+.box-shadow {
+  -webkit-box-shadow: 0 0 .5em 0 rgba(0,0,0,.5);
+  -moz-box-shadow: 0 0 .5em 0 rgba(0,0,0,.5);
+  -ms-box-shadow: 0 0 .5em 0 rgba(0,0,0,.5);
+  -o-box-shadow: 0 0 .5em 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 .5em 0 rgba(0,0,0,.5);
+}
+
 h1,
 h2,
 h3,
