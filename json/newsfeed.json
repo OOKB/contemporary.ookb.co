@@ -1,25 +1,11 @@
 {
     "newsFeed": [
-        {
-            "url": "/speakerseries.html",
-            "text": "Resuming CoHosts, with second round",
-            "humandate": "Nov 5, 2016",
-            "location": "",
-            "time": ""
-        },
-        {
-            "url": "https://noisey.vice.com/en_us/article/premiere-joy-postell-embodies-her-heroes-in-new-video-consciousness",
-            "text": "Joy Postell's <em>'Consciousness'</em> filmed at Peale Museum!",
-            "humandate": "Oct 25, 2016",
-            "location": "",
-            "time": ""
-        },
-        {
-            "url": "http://www.artprize.org/blog/meet-the-artprize-eight-jurors",
-            "text": "Executive Director on ArtPrize 8 jury.",
-            "humandate": "Sep 1, 2016",
-            "location": "",
-            "time": ""
-        }
+      {
+          "url": "/pdf/011317_TheGround_PressRelease.pdf",
+          "text": "Press Release: The Ground by Michael Jones McKean, through May 19, 2017",
+          "humandate": "Jan 13, 2017",
+          "location": "",
+          "time": ""
+      }
     ]
 }
