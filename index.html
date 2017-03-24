@@ -117,11 +117,17 @@
                 <li data-target="#homepage-carousel" data-slide-to="1"></li>
                 <li data-target="#homepage-carousel" data-slide-to="2"></li>
                 <li data-target="#homepage-carousel" data-slide-to="3"></li>
+                <li data-target="#homepage-carousel" data-slide-to="4"></li>
               </ol>
 
               <div class="carousel-inner">
 
                 <div class="item active">
+                  <a href="/projects/" class="no-styles">
+                    <img src="/img/sonic-meditations-02.jpg" alt="Sonic Meditations" />
+                  </a>
+                </div>
+                <div class="item">
                   <a href="/projects/" class="no-styles">
                     <img src="/img/TheGround2017.jpg" alt="The Ground by Michael Jones McKean, through May 19, 2017" />
                   </a>
@@ -288,7 +294,7 @@
       $.getJSON('json/upcoming.json', function(data) {
         $.each(data.upcomingEvents, function(data) {
           console.log(this["event"]);
-          $('#upcoming').append('<li class="eventItem"><a href="' + this["url"] + '"><ul><li><span class="date">' + this["humandate"] + '</span> // ' + this["text"] + '</a></li><li>' + this["location"] + '</li><li>' + this["time"] + '</li></ul></a></li>');
+          $('#upcoming').append('<li class="eventItem"><a href="' + this["url"] + '"><ul><li><span class="date">' + this["humandate"] + '</span> // ' + this["text"] + '</a></li><li>' + this["location"] + '</li></ul></a></li>');
         });
       });
       $.getJSON('json/newsfeed.json', function(data) {
