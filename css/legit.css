@@ -1165,3 +1165,14 @@ dl .past {
 .carousel-inner > .item > a > img {
   width: 100%;
 }
+
+#speakers .upcoming {
+  position: relative;
+  top: -15px;
+  padding-top: 15px;
+  transition: 350ms;
+}
+#speakers .upcoming:hover {
+  background: rgba(250,252,255,1);
+  box-shadow: 0 0 1em 0 rgba(26,42,53,.33);
+}
