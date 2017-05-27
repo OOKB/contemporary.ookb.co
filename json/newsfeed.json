@@ -1,32 +1,25 @@
 {
   "newsFeed": [
     {
+      "url": "http://artfcity.com/2017/05/19/michael-jones-mckean-makes-museums-existentially-terrifying/",
+      "text": "Michael Jones McKean Makes Museums Existentially Terrifying",
+      "humandate": "May 19, 2017",
+      "location": "",
+      "time": ""
+    },
+    {
+      "url": "https://hyperallergic.com/378473/an-installation-in-a-19th-century-department-store-collapses-time/",
+      "text": "An Installation in a 19th-Century Department Store Collapses Time",
+      "humandate": "May 12, 2017",
+      "location": "",
+      "time": ""
+    },
+    {
       "url": "/pdf/TCInternshipApplication2017-18.pdf",
       "text": "The Contemporary is seeking 3 paid interns for September 2017-May 2018",
       "humandate": "April 11, 2017",
       "location": "",
       "time": ""
-    },
-    {
-      "url": "http://us7.campaign-archive2.com/?u=eff2e5ec224690abbfe4e9f4d&id=8508b6b355&e=695742cb5b",
-      "text": "Grit Fund 3 2017 Grantees Anounced: 11 projects funded with $55,250 in grants!",
-      "humandate": "Mar 24, 2017",
-      "location": "",
-      "time": ""
-    },
-    {
-        "url": "/pdf/TC-ED-Position-Description.pdf",
-        "text": "The Contemporary, in Baltimore, Maryland, seeks an Executive Director.",
-        "humandate": "Jan 26, 2017",
-        "location": "",
-        "time": ""
-    },
-    {
-        "url": "/pdf/011317_TheGround_PressRelease.pdf",
-        "text": "Press Release: The Ground by Michael Jones McKean, through May 19, 2017",
-        "humandate": "Jan 13, 2017",
-        "location": "",
-        "time": ""
     }
   ]
 }
