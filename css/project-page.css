@@ -1,4 +1,4 @@
-.project-page { 
+.project-page {
   padding-top: 35px;
   padding-bottom: 100px;
 }
@@ -28,7 +28,7 @@ h1 .add-right { margin-right: 100px; }
   background: #18497b;
   margin: 0;
   padding: 0;
-  width: calc(100% / 63); /* 100% / total # of projects... */
+  width: calc(100% / 66); /* 100% / total # of projects... */
   text-indent: 200%;
   height: 15px;
   overflow: hidden;
@@ -234,7 +234,7 @@ figcaption .info {
   overflow: hidden;
   height: 100%;
 }
- 
+
 /* The ghost, nudged to maintain perfect centering */
 .block:before {
   content: '';
@@ -244,7 +244,7 @@ figcaption .info {
   margin-right: -0.25em; /* Adjusts for spacing */
 }
 
-/* The element to be centered, can also be of any width and height */ 
+/* The element to be centered, can also be of any width and height */
 .block img {
   display: inline-block;
   vertical-align: middle;
