@@ -1115,7 +1115,9 @@ dl .past {
 }
 /** Scroll Related
     ======================= **/
-
+.issue {
+  margin-bottom: 4em;
+}
 .issue img {
   max-width: 100%;
   width: initial;
