@@ -172,9 +172,9 @@ $(window).scroll(function() {
 /****************************/
 
 
-//Dynamic temporary footer loading solution
+//Dynamic temporary header and footer loading solution
 
 $(document).ready(function() {
-  $('footer #dynamicreplacement').load('/footer.html');
+  $('footer .dynamicreplacement').load('/footer.html');
+  $('header .dynamicreplacement').load('/header.html');
 });
-
