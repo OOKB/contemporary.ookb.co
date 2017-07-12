@@ -213,6 +213,11 @@ img.fit {
   width: 100%;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .baseline-shift {
   margin-top: -2.66em;
 }
