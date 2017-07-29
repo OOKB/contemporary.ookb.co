@@ -29,9 +29,7 @@ h1 .add-right { margin-right: 100px; }
   margin: 0;
   padding: 0;
   width: calc(100% / 66); /* 100% / total # of projects... */
-  text-indent: 200%;
   height: 15px;
-  overflow: hidden;
   white-space: nowrap;
   display: block;
   float: left;
@@ -39,28 +37,30 @@ h1 .add-right { margin-right: 100px; }
   position: relative;
 }
 
-/*
-#timeline ul li:hover {
-  background: green;
-  height: 30px;
-  overflow: visible;
-  text-indent: .1em;
-}
-
-#timeline ul li p {
-  color: white;
-  margin: 0;
-}
-
-#timeline ul li:hover p {
-  position: absolute;
-  bottom: 0;
-}
-*/
-
 #timeline ul li.active {
   background: #f0624a;
   height: 30px;
+}
+
+#timeline ul li p,
+#timeline ul li a {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  display: block;
+  text-indent: 200%;
+  height: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 350ms;
+}
+
+#timeline ul li p:hover,
+#timeline ul li p:hover a {
+  height: 30px;
+}
+#timeline ul li p:hover a {
+  background: rgba(040,109,076,1);
 }
 
 .archive-controls {
