@@ -142,8 +142,9 @@ a:focus {
   border-bottom: 1px solid rgba(241, 97, 74, .5);
 }
 
-a.no-style {
-  color:inherit;
+a.no-style,
+a.no-styles {
+  color: inherit;
   text-decoration: none;
   border-bottom: none !important;
 }
@@ -694,8 +695,9 @@ section img {
 }
 
 #speakers .row h2,
+#speakers-past .row h2,
 #archive .row h2 {
-  margin-bottom: 0;
+  margin-bottom: .5em;
   font-size: 1.25em;
 }
 
