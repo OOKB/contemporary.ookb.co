@@ -195,6 +195,10 @@ img.sizeToMatch {
   padding-top: 15px;
 }
 
+.pad-bottom {
+  padding-bottom: 51px;
+}
+
 hr.border-top {
   padding: 0;
 }
