@@ -1208,3 +1208,7 @@ dl .past {
   margin: 1em 0 .25em 0;
   border-bottom: 1px solid;
 }
+
+svg.logo .c {
+    fill: rgba(241,97,74,1);
+}
